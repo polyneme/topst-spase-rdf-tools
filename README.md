@@ -1,5 +1,17 @@
 # SPASE RDF Tools
 
+Toolset to produce SPASE RDF and explore teh resulting Knowledge Graph.
+
+## The SPASE Knowledge Graph
+
+The SPASE Knowledge is composed of two mian parts:
+
+1. The SPASE ontology, which is an automatically generated OWL Ontology using the SPASE Base Model XSD file available [here](https://spase-group.org/data/schema/spase-2.6.0.xsd). The ontology generation algorithm takes every entity on the SPASE XSD file and turns it into an OWL Class, all the relationships between entities get mapped to owl:ObjectProperties and every literal property of each entity gets mapped to owl:DataTypeProperty, all properties get assigned their corresponding domain and range.
+2. SPASE RDF Individuals Data, which is an automatically generate TTL file containing RDF tath represent the different SPASE resources on the XML files provided by [hpde](https://github.com/hpde/hpde.io/). This RDF complies with the SPASE Ontology.
+
+
+
+
 ## Explore RDF
 
 ### Requirements
@@ -23,6 +35,7 @@ Decompress the pre-processed data under:
   ```bash 
     cd data
     unzip spase.ttl.zip
+    cd ..
   ```
 
 ### Setup
