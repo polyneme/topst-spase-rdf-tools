@@ -1,0 +1,7 @@
+{
+     "PUBLIC_OR_PROXY_ENDPOINT": "http://localhost:3030/spase",
+     "GRAPH_TYPE": "sparql",
+     "GRAPH_EXP_HTTPS_CONNECTION": true,
+     "PROXY_SERVER_HTTPS_CONNECTION": true,
+     "GRAPH_EXP_FETCH_REQUEST_TIMEOUT": 240000
+}

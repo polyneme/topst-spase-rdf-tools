@@ -16,7 +16,7 @@ services:
       dockerfile: Dockerfile
       context: ./graph-explorer
     volumes:
-      - ./graph-explorer/config.json:/graph-explorer/config.json
+      - .graph-explorer-config.json:/graph-explorer/graph-explorer-config.json
     ports:
       - "80:80"
       - "443:443"

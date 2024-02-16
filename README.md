@@ -9,18 +9,16 @@
 
 ### Clone repositories
 
-- Clone this repo:
+- Clone this repo and its submodules:
   ```bash 
-    git clone https://github.com/alexgarciac/spase-rdf-tools.git && cd spase-rdf-tools
-  ```
-- Clone the Graph explorer repo:
-  ```bash 
-    git clone https://github.com/aws/graph-explorer.git
+    git clone --recurse-submodules -j8 https://github.com/alexgarciac/spase-rdf-tools.git
+    cd spase-rdf-tools
   ```
 
 ### Download pre-processed data
 
-
+Decompress the pre-processed data under:
+`spase-rdf-tools/data`
 
 
 ### Setup
