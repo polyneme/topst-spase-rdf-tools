@@ -39,6 +39,6 @@ docker-compose up
 Open:
 
 -  Graph Explorer: https://localhost/explorer
--  Jupyter notebook: Check `docker-compose`out for a link like http://127.0.0.1:8888/?token=<token>ç
+-  Jupyter notebook: Check `docker-compose`out for a link like http://127.0.0.1:8888/?token=<token\>
 -  Fuseki: http://localhost:3030
 
