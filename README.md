@@ -18,8 +18,12 @@
 ### Decompress pre-processed data
 
 Decompress the pre-processed data under:
-`spase-rdf-tools/data/spase.ttl.zip`
+`spase-rdf-tools/data/spase.ttl.zip`:
 
+  ```bash 
+    cd data
+    unzip spase.ttl.zip
+  ```
 
 ### Setup
 
