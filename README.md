@@ -15,10 +15,10 @@
     cd spase-rdf-tools
   ```
 
-### Download pre-processed data
+### Decompress pre-processed data
 
 Decompress the pre-processed data under:
-`spase-rdf-tools/data`
+`spase-rdf-tools/data/spase.ttl.zip`
 
 
 ### Setup
