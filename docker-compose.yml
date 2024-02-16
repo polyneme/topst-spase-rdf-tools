@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  fuseki:
+    build:
+      dockerfile: ./fuseki/Dockerfile
+    ports:
+      - "3030:3030"
+    volumes:
+      - ./fuseki/fuseki-config.ttl:/configuration/fuseki-config.ttl
+      - ./fuseki/shiro.ini:/fuseki/run/shiro.ini
+      - ./data:/fuseki-base
+  graph-explorer:
+    build:
+      dockerfile: Dockerfile
+      context: ./graph-explorer
+    volumes:
+      - ./graph-explorer/config.json:/graph-explorer/config.json
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - HOST=localhost
+  spase-jupyter:
+    build:
+      dockerfile: Dockerfile
+      context: ./jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./spase_rdf_tools/:/usr/src/app/

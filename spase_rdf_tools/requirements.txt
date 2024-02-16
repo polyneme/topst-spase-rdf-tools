@@ -1,0 +1,3 @@
+xsdata[cli,lxml,soap]
+tqdm
+requests

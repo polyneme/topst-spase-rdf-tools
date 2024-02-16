@@ -1,0 +1,3 @@
+[submodule "graph-explorer"]
+	path = graph-explorer
+	url = https://github.com/aws/graph-explorer.git
