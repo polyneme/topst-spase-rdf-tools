@@ -5,6 +5,23 @@
 ### Requirements
 
 - [Docker](https://docs.docker.com/get-docker/)
+- [Git](https://git-scm.com/download/mac)
+
+### Clone repositories
+
+- Clone this repo:
+  ```bash 
+    git clone https://github.com/alexgarciac/spase-rdf-tools.git && cd spase-rdf-tools
+  ```
+- Clone the Graph explorer repo:
+  ```bash 
+    git clone https://github.com/aws/graph-explorer.git
+  ```
+
+### Download pre-processed data
+
+
+
 
 ### Setup
 

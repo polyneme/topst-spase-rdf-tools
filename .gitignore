@@ -1,6 +1,6 @@
 .idea
 .ipynb_checkpoints
 venv
-data
 spase_rdf_tools/data
 **__pycache__
+**.ttl
