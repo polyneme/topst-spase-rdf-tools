@@ -1,3 +1,9 @@
 xsdata[cli,lxml,soap]
 tqdm
 requests
+graph-notebook
+plotly
+pandas
+numpy
+matplotlib
+click
