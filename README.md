@@ -39,12 +39,12 @@ Decompress the pre-processed data under:
 #### Setup
 
 ```shell
-docker-compose build
+docker compose build
 ```
 
 #### Execution
 ```shell
-docker-compose up
+docker compose up
 ```
 
 Open:
