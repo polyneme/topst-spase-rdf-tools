@@ -1,5 +1,6 @@
 .idea
 .ipynb_checkpoints
+.DS_Store
 venv
 spase_rdf_tools/data
 **__pycache__
