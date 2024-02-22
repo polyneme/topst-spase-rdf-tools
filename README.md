@@ -58,7 +58,7 @@ Open:
 #### Requirements
 
 - Java
-- Docker
+- Docker (ensure docker memory limit is much larger than 4GB. >16GB recommended.)
 - Python 3.8+
 
 #### Setup
