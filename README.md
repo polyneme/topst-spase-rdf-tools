@@ -1,6 +1,6 @@
 # SPASE RDF Tools
 
-Toolset to produce SPASE RDF and explore teh resulting Knowledge Graph.
+Toolset to produce SPASE RDF and explore the resulting Knowledge Graph.
 
 ## The SPASE Knowledge Graph
 
