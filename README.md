@@ -21,8 +21,8 @@ The SPASE Knowledge is composed of two main parts:
 
 - Clone this repo and its submodules:
   ```shell 
-    git clone --recurse-submodules -j8 git@github.com:polyneme/spase-rdf-tools.git
-    cd spase-rdf-tools
+    git clone --recurse-submodules -j8 git@github.com:polyneme/topst-spase-rdf-tools.git
+    cd topst-spase-rdf-tools
   ```
 
 #### Decompress pre-processed data
