@@ -28,7 +28,7 @@ The SPASE Knowledge is composed of two main parts:
 #### Decompress pre-processed data
 
 Decompress the pre-processed data under:
-`spase-rdf-tools/data/spase.ttl.zip`:
+`topst-spase-rdf-tools/data/spase.ttl.zip`:
 
   ```shell 
     cd data
